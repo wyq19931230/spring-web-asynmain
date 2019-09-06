@@ -1,0 +1,23 @@
+<html>
+<script type="text/javascript"> 
+function ajax(url){
+	        var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : ActiveXObject("microsoft.XMLHttp")
+	        xhr.open("get","localhost:8888/code/code",true);
+	        xhr.send();
+	        xhr.onreadysattechange = () =>{
+	            if(xhr.readystate == 4){
+	                if(xhr.status == 200){
+	                    var data = xhr.responseTEXT;
+	                    return data;
+	                }
+	            }
+	        }    
+	    }
+	
+</script>
+	<body>
+	aaaaaa
+		<image src="" >
+	</body>
+
+</html>

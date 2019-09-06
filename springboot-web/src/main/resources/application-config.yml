@@ -1,0 +1,14 @@
+person:
+  name: zs1
+  age: 121
+  boos: false
+  brith: 1993/12/301
+  map:
+    k1: v11
+    k2: v21
+    k3: v31
+  list: [list11,list21]
+  dog:
+    name: zsdf1
+    age: 131
+    

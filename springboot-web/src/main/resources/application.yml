@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:  application:    name: web-demo1  profiles:    include:    - config  mail:    host: smtp.163.com
+    username: 15802920105@163.com
+    password: wei19931230
+    default-encoding: UTF-8
+    properties:
+      mail:
+       smtp:
+        auth: true
+        starttls:
+         enable: true
+         required: true
+#日志管理
+logging:  pattern:    file: info.log
+    level: debug
+    
+mail:
+  from: ${spring.mail.username}
+  to: 850843705@qq.com

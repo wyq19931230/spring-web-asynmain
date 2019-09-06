@@ -1,0 +1,14 @@
+2019-08-22 10:50:13.258  INFO 5780 --- [main] org.springboot.web.App                   : Starting App on 9L312IDWJ08GY6H with PID 5780 (started by Administrator in D:\spring的staty\demo\springboot-web)
+2019-08-22 10:50:13.262  INFO 5780 --- [main] org.springboot.web.App                   : No active profile set, falling back to default profiles: default
+2019-08-22 10:50:15.593  INFO 5780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-22 10:50:15.635  INFO 5780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-22 10:50:15.636  INFO 5780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-22 10:50:15.796  INFO 5780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-22 10:50:15.797  INFO 5780 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2462 ms
+2019-08-22 10:50:16.111  INFO 5780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 10:50:16.397  INFO 5780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-22 10:50:16.403  INFO 5780 --- [main] org.springboot.web.App                   : Started App in 3.705 seconds (JVM running for 4.113)
+2019-08-22 10:50:22.692  INFO 5780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 10:50:22.692  INFO 5780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-22 10:50:22.700  INFO 5780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-08-22 10:50:22.728  INFO 5780 --- [http-nio-8080-exec-1] o.s.web.controller.WebController         : 开始执行
